@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Perfect {
 	public static void main(String args[]) {
-		int n=1000;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the n value : ");
+		int n=sc.nextInt();
 		for(int i=2;i<=n;i++) {
 			if(isPerfect(i)) {
                 System.out.println(i);
